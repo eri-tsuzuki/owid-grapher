@@ -9,7 +9,6 @@ import {
 import { Disposer, observer } from "mobx-react"
 import { observable, computed, action, runInAction, autorun } from "mobx"
 import { match, __ } from "ts-pattern"
-//import * as lodash from "lodash"
 import {
     cloneDeep,
     findLastIndex,
@@ -19,8 +18,7 @@ import {
     isEqual,
     isNil,
     merge,
-    pick,
-} from "lodash"
+} from "lodash-es"
 
 import { HotColumn, HotTable } from "@handsontable/react"
 import { AdminLayout } from "./AdminLayout.js"
