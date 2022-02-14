@@ -44,8 +44,8 @@ import {
     debounceTime,
     distinctUntilChanged,
     switchMap,
-} from "rxjs/operators"
-import { fromFetch } from "rxjs/fetch"
+} from "rxjs/operators/index.js"
+import { fromFetch } from "rxjs/fetch/index.js"
 import { toStream, fromStream } from "mobx-utils"
 import {
     stringifyUnkownError,
