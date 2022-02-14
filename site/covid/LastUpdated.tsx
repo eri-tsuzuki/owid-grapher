@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import dayjs, { Dayjs } from "dayjs"
-import relativeTime from "dayjs/plugin/relativeTime"
+import relativeTime from "dayjs/plugin/relativeTime.js"
 dayjs.extend(relativeTime)
 
 export interface LastUpdatedTokenProps {
